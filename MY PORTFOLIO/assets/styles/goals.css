@@ -1,0 +1,66 @@
+#goals{
+  background: #bfc9ca;
+  padding: 50px 20px;
+  font-family: sans-serif;
+}
+
+.goals-heading h1{
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 60px;
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.goals-list{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 35px;
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 12px;
+  width: 300px;  
+  margin: 0 20px 40px 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+  }
+
+.card-header img{
+width: 100%;
+height: 200px;
+object-fit: cover;
+border-radius: 20px;
+padding: 0;
+}
+
+.card-header{
+width: 100%;
+overflow: hidden;
+border-radius: 20px;
+margin-bottom: 10px;
+}
+
+.card-header h2{
+  font-size: 22px;
+  margin: 15px 0 0;
+  text-align: center;
+}
+
+.card-footer{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
